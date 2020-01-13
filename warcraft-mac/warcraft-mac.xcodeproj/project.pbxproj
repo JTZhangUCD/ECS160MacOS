@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C5FDFF223CCF902008AA59E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5FDFF123CCF902008AA59E /* AppDelegate.swift */; };
+		9C5FDFF423CCF902008AA59E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9C5FDFF323CCF902008AA59E /* GameScene.sks */; };
+		9C5FDFF623CCF902008AA59E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9C5FDFF523CCF902008AA59E /* Actions.sks */; };
+		9C5FDFF823CCF902008AA59E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5FDFF723CCF902008AA59E /* GameScene.swift */; };
+		9C5FDFFA23CCF902008AA59E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5FDFF923CCF902008AA59E /* ViewController.swift */; };
+		9C5FDFFC23CCF902008AA59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5FDFFB23CCF902008AA59E /* Assets.xcassets */; };
+		9C5FDFFF23CCF902008AA59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5FDFFD23CCF902008AA59E /* Main.storyboard */; };
+		9C5FE00B23CCF903008AA59E /* warcraft_macTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5FE00A23CCF903008AA59E /* warcraft_macTests.swift */; };
+		9C5FE01623CCF903008AA59E /* warcraft_macUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5FE01523CCF903008AA59E /* warcraft_macUITests.swift */; };
+		9C5FE02423CD0708008AA59E /* LaunchScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5FE02323CD0708008AA59E /* LaunchScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C5FE00723CCF903008AA59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C5FDFE623CCF902008AA59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5FDFED23CCF902008AA59E;
+			remoteInfo = "warcraft-mac";
+		};
+		9C5FE01223CCF903008AA59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C5FDFE623CCF902008AA59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5FDFED23CCF902008AA59E;
+			remoteInfo = "warcraft-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C5FDFEE23CCF902008AA59E /* warcraft-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "warcraft-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5FDFF123CCF902008AA59E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C5FDFF323CCF902008AA59E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9C5FDFF523CCF902008AA59E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		9C5FDFF723CCF902008AA59E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9C5FDFF923CCF902008AA59E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C5FDFFB23CCF902008AA59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C5FDFFE23CCF902008AA59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C5FE00023CCF902008AA59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5FE00123CCF902008AA59E /* warcraft_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = warcraft_mac.entitlements; sourceTree = "<group>"; };
+		9C5FE00623CCF903008AA59E /* warcraft-macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "warcraft-macTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5FE00A23CCF903008AA59E /* warcraft_macTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warcraft_macTests.swift; sourceTree = "<group>"; };
+		9C5FE00C23CCF903008AA59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5FE01123CCF903008AA59E /* warcraft-macUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "warcraft-macUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5FE01523CCF903008AA59E /* warcraft_macUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warcraft_macUITests.swift; sourceTree = "<group>"; };
+		9C5FE01723CCF903008AA59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5FE02323CD0708008AA59E /* LaunchScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5FDFEB23CCF902008AA59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5FE00323CCF903008AA59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5FE00E23CCF903008AA59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5FDFE523CCF902008AA59E = {
+			isa = PBXGroup;
+			children = (
+				9C5FDFF023CCF902008AA59E /* warcraft-mac */,
+				9C5FE00923CCF903008AA59E /* warcraft-macTests */,
+				9C5FE01423CCF903008AA59E /* warcraft-macUITests */,
+				9C5FDFEF23CCF902008AA59E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5FDFEF23CCF902008AA59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5FDFEE23CCF902008AA59E /* warcraft-mac.app */,
+				9C5FE00623CCF903008AA59E /* warcraft-macTests.xctest */,
+				9C5FE01123CCF903008AA59E /* warcraft-macUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C5FDFF023CCF902008AA59E /* warcraft-mac */ = {
+			isa = PBXGroup;
+			children = (
+				9C5FDFF123CCF902008AA59E /* AppDelegate.swift */,
+				9C5FE02323CD0708008AA59E /* LaunchScene.swift */,
+				9C5FDFF323CCF902008AA59E /* GameScene.sks */,
+				9C5FDFF523CCF902008AA59E /* Actions.sks */,
+				9C5FDFF723CCF902008AA59E /* GameScene.swift */,
+				9C5FDFF923CCF902008AA59E /* ViewController.swift */,
+				9C5FDFFB23CCF902008AA59E /* Assets.xcassets */,
+				9C5FDFFD23CCF902008AA59E /* Main.storyboard */,
+				9C5FE00023CCF902008AA59E /* Info.plist */,
+				9C5FE00123CCF902008AA59E /* warcraft_mac.entitlements */,
+			);
+			path = "warcraft-mac";
+			sourceTree = "<group>";
+		};
+		9C5FE00923CCF903008AA59E /* warcraft-macTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5FE00A23CCF903008AA59E /* warcraft_macTests.swift */,
+				9C5FE00C23CCF903008AA59E /* Info.plist */,
+			);
+			path = "warcraft-macTests";
+			sourceTree = "<group>";
+		};
+		9C5FE01423CCF903008AA59E /* warcraft-macUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5FE01523CCF903008AA59E /* warcraft_macUITests.swift */,
+				9C5FE01723CCF903008AA59E /* Info.plist */,
+			);
+			path = "warcraft-macUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C5FDFED23CCF902008AA59E /* warcraft-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5FE01A23CCF903008AA59E /* Build configuration list for PBXNativeTarget "warcraft-mac" */;
+			buildPhases = (
+				9C5FDFEA23CCF902008AA59E /* Sources */,
+				9C5FDFEB23CCF902008AA59E /* Frameworks */,
+				9C5FDFEC23CCF902008AA59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "warcraft-mac";
+			productName = "warcraft-mac";
+			productReference = 9C5FDFEE23CCF902008AA59E /* warcraft-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C5FE00523CCF903008AA59E /* warcraft-macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5FE01D23CCF903008AA59E /* Build configuration list for PBXNativeTarget "warcraft-macTests" */;
+			buildPhases = (
+				9C5FE00223CCF903008AA59E /* Sources */,
+				9C5FE00323CCF903008AA59E /* Frameworks */,
+				9C5FE00423CCF903008AA59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5FE00823CCF903008AA59E /* PBXTargetDependency */,
+			);
+			name = "warcraft-macTests";
+			productName = "warcraft-macTests";
+			productReference = 9C5FE00623CCF903008AA59E /* warcraft-macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C5FE01023CCF903008AA59E /* warcraft-macUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5FE02023CCF903008AA59E /* Build configuration list for PBXNativeTarget "warcraft-macUITests" */;
+			buildPhases = (
+				9C5FE00D23CCF903008AA59E /* Sources */,
+				9C5FE00E23CCF903008AA59E /* Frameworks */,
+				9C5FE00F23CCF903008AA59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5FE01323CCF903008AA59E /* PBXTargetDependency */,
+			);
+			name = "warcraft-macUITests";
+			productName = "warcraft-macUITests";
+			productReference = 9C5FE01123CCF903008AA59E /* warcraft-macUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C5FDFE623CCF902008AA59E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = JT;
+				TargetAttributes = {
+					9C5FDFED23CCF902008AA59E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					9C5FE00523CCF903008AA59E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 9C5FDFED23CCF902008AA59E;
+					};
+					9C5FE01023CCF903008AA59E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 9C5FDFED23CCF902008AA59E;
+					};
+				};
+			};
+			buildConfigurationList = 9C5FDFE923CCF902008AA59E /* Build configuration list for PBXProject "warcraft-mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C5FDFE523CCF902008AA59E;
+			productRefGroup = 9C5FDFEF23CCF902008AA59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C5FDFED23CCF902008AA59E /* warcraft-mac */,
+				9C5FE00523CCF903008AA59E /* warcraft-macTests */,
+				9C5FE01023CCF903008AA59E /* warcraft-macUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C5FDFEC23CCF902008AA59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5FDFF423CCF902008AA59E /* GameScene.sks in Resources */,
+				9C5FDFFC23CCF902008AA59E /* Assets.xcassets in Resources */,
+				9C5FDFF623CCF902008AA59E /* Actions.sks in Resources */,
+				9C5FDFFF23CCF902008AA59E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5FE00423CCF903008AA59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5FE00F23CCF903008AA59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5FDFEA23CCF902008AA59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5FE02423CD0708008AA59E /* LaunchScene.swift in Sources */,
+				9C5FDFFA23CCF902008AA59E /* ViewController.swift in Sources */,
+				9C5FDFF823CCF902008AA59E /* GameScene.swift in Sources */,
+				9C5FDFF223CCF902008AA59E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5FE00223CCF903008AA59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5FE00B23CCF903008AA59E /* warcraft_macTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5FE00D23CCF903008AA59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5FE01623CCF903008AA59E /* warcraft_macUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C5FE00823CCF903008AA59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5FDFED23CCF902008AA59E /* warcraft-mac */;
+			targetProxy = 9C5FE00723CCF903008AA59E /* PBXContainerItemProxy */;
+		};
+		9C5FE01323CCF903008AA59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5FDFED23CCF902008AA59E /* warcraft-mac */;
+			targetProxy = 9C5FE01223CCF903008AA59E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C5FDFFD23CCF902008AA59E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5FDFFE23CCF902008AA59E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C5FE01823CCF903008AA59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C5FE01923CCF903008AA59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9C5FE01B23CCF903008AA59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "warcraft-mac/warcraft_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "warcraft-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lel.warcraft-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9C5FE01C23CCF903008AA59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "warcraft-mac/warcraft_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "warcraft-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lel.warcraft-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9C5FE01E23CCF903008AA59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "warcraft-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "lel.warcraft-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/warcraft-mac.app/Contents/MacOS/warcraft-mac";
+			};
+			name = Debug;
+		};
+		9C5FE01F23CCF903008AA59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "warcraft-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "lel.warcraft-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/warcraft-mac.app/Contents/MacOS/warcraft-mac";
+			};
+			name = Release;
+		};
+		9C5FE02123CCF903008AA59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "warcraft-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lel.warcraft-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "warcraft-mac";
+			};
+			name = Debug;
+		};
+		9C5FE02223CCF903008AA59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "warcraft-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lel.warcraft-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "warcraft-mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C5FDFE923CCF902008AA59E /* Build configuration list for PBXProject "warcraft-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5FE01823CCF903008AA59E /* Debug */,
+				9C5FE01923CCF903008AA59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5FE01A23CCF903008AA59E /* Build configuration list for PBXNativeTarget "warcraft-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5FE01B23CCF903008AA59E /* Debug */,
+				9C5FE01C23CCF903008AA59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5FE01D23CCF903008AA59E /* Build configuration list for PBXNativeTarget "warcraft-macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5FE01E23CCF903008AA59E /* Debug */,
+				9C5FE01F23CCF903008AA59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5FE02023CCF903008AA59E /* Build configuration list for PBXNativeTarget "warcraft-macUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5FE02123CCF903008AA59E /* Debug */,
+				9C5FE02223CCF903008AA59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C5FDFE623CCF902008AA59E /* Project object */;
+}
